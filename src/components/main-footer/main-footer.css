@@ -1,0 +1,81 @@
+.main-footer-div{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 70px;
+    background-color: #FDF8F7;
+}
+
+.main-footer-cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.main-footer-cont ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.main-footer-cont ul li{
+    padding-right: 230px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+/* or 100% */
+
+font-feature-settings: 'liga' off;
+
+color: #DF7C6C;
+
+}
+
+.main-footer-cont2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.main-footer-cont2 ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.main-footer-cont2 ul li{
+    padding-left: 30px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height, or 100% */
+
+font-feature-settings: 'liga' off;
+
+color: #000000;
+}
+
+@media only screen and (max-width: 767px) {
+   .li1{
+       padding-left: 200px;
+   }
+   .main-footer-cont2 ul{
+    padding-right: 100px;
+}
+  }

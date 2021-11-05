@@ -1,0 +1,76 @@
+.main-count-div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #FDF8F7;
+    
+}
+
+.main-count-area{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-nav{
+    display: flex;
+
+}
+
+.sub-nav ul{
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+.sub-nav ul li{
+    padding: 0 130px;
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .sub-nav ul li {
+        padding: 0 100px;
+    }
+  }
+@media only screen and (max-width: 760px) {
+    .sub-nav ul li {
+        padding: 0 40px;
+    }
+  }
+  @media only screen and (max-width: 487px) {
+    .sub-nav ul li {
+        padding: 0 20px;
+    }
+  }
+
+  @media only screen and (max-width:367px) {
+    .sub-nav ul  {
+        padding-right:  40px ;
+    }
+  }
+
+
+  .sub-cards-area{
+      /* display: flex; */
+      
+  }
+
+.liSpec{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 32px;
+/* identical to box height, or 128% */
+
+text-align: center;
+font-feature-settings: 'liga' off;
+
+color: #000000;
+}
